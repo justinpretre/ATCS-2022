@@ -28,7 +28,7 @@ body {
     background-color: #73A9AD;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.content div, .content img{
+.content>div, .content>img{
     width: 40vw;
     height: 40vw;
     overflow-wrap: break-word;
@@ -42,10 +42,10 @@ body {
     box-sizing: border-box;
 }
 
-.content img {
+.content>img {
     object-fit: cover;
 }
-#homeImg {
+#runImg {
     object-position: top;
 }
 
@@ -61,4 +61,17 @@ div.button {
 .paragraph {
     padding-left: 75px;
     padding-right: 75px;
+}
+.time h1 {
+    font-size: 75px;
+}
+.time h2 {
+    font-size: 60px;
+}
+.time h3 {
+    font-size: 40px;
+}
+.icon {
+    width: 200px;
+    height: 200px;
 }
